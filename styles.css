@@ -1,0 +1,26 @@
+@import url("/styles/header.css");
+@import url("/styles/banner.css");
+@import url("/styles/carrossel.css");
+@import url("/styles/topicos.css");
+@import url("/styles/novidades.css");
+@import url("/styles/footer.css");
+
+:root {
+    --fonte-titulo: "Road Rage";
+    --fonte-texto: "Roboto";
+    --degrade: linear-gradient(97.54deg, #5810B4 35.49%, #BEA4F3 165.37%);
+    --roxinho: #5810B4;
+    --roxinho-claro: #BEA4F3;
+    --branco: #ffffff; 
+    --preto: #0C0C0C;
+    --cinza: #252525;
+    --rosinha: #DB607D;
+    --lilas: #BEA4F3;
+}
+
+body {
+    background-color: var(--cinza);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+    font-weight: 400;
+}

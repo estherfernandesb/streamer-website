@@ -1,0 +1,30 @@
+hr {
+    margin: 0;
+}
+
+.rodape{
+    background-color: var(--preto);
+    padding: 1em;
+}
+
+.rodape__titulo{
+    color: var(--branco);
+    font-weight: 300;
+}
+
+.titulo-principal__responsivo {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .titulo-principal{
+        display: none;
+    }
+
+    .titulo-principal__responsivo{
+        text-align: center;
+        font-size: 24px;
+        padding: 2em;
+        display: block;
+    }
+}
